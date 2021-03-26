@@ -119,19 +119,19 @@ document.addEventListener('DOMContentLoaded', () => {
         const newSquare = document.getElementById(newId)
         click(newSquare)
       }
-      if (currentId > 10) {
+      if (currentId > 9) {
         const newId = squares[parseInt(currentId -width)].id
         //const newId = parseInt(currentId) -width   ....refactor
         const newSquare = document.getElementById(newId)
         click(newSquare)
       }
-      if (currentId > 11 && !isLeftEdge) {
+      if (currentId > 10 && !isLeftEdge) {
         const newId = squares[parseInt(currentId) -1 -width].id
         //const newId = parseInt(currentId) -1 -width   ....refactor
         const newSquare = document.getElementById(newId)
         click(newSquare)
       }
-      if (currentId < 98 && !isRightEdge) {
+      if (currentId < 99 && !isRightEdge) {
         const newId = squares[parseInt(currentId) +1].id
         //const newId = parseInt(currentId) +1   ....refactor
         const newSquare = document.getElementById(newId)
@@ -143,13 +143,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const newSquare = document.getElementById(newId)
         click(newSquare)
       }
-      if (currentId < 88 && !isRightEdge) {
+      if (currentId < 89 && !isRightEdge) {
         const newId = squares[parseInt(currentId) +1 +width].id
         //const newId = parseInt(currentId) +1 +width   ....refactor
         const newSquare = document.getElementById(newId)
         click(newSquare)
       }
-      if (currentId < 89) {
+      if (currentId < 90) {
         const newId = squares[parseInt(currentId) +width].id
         //const newId = parseInt(currentId) +width   ....refactor
         const newSquare = document.getElementById(newId)
